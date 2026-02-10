@@ -118,29 +118,6 @@ You can send Mass Delivery mail through template file in Excel/CSV format. On th
     - check and proceed: **Check Mass delivery** tab to confirm mail receivers within 7 days before sending mail. (Not supported for scheduled sending.)
     - Send Immediately: Mail is sent immediately without confirming the mail receiver. On **Mass Delivery** tab, you can check delivery status.
 
-### Tagged Mail Delivery
-
-You can send it as UID that meets tagged conditions. Select **Tagged delivery** on bottom tab.
-For more information about tags, refer to [Note](./console-guide/#_37/).
-
-![email_06_20231023_en](https://static.toastoven.net/prod_email/email_06_20231023_en.png)
-
-1. On **Deliver Mails** tab, select **Disable** under **Enable Template or Not**.
-2. Select ** Tagged delivery ** tab at the bottom of screen and click on **Select Tag** button.
-    - Tags can be registered on **Tag Management**, while UID and phone numbers can be saved on the UID Management tab.
-3. Select the tag that you want to send On **Select Tag** window.
-4. You can select up to four tags.
-    - You can apply AND, OR conditions to the multiple selected tags.
-        - AND: Targets are only receivers who belong to multiple tags.
-        - OR: Targets are receivers who belong to more than one tag.
-5. To choose time of delivery, specify it **Scheduled Delivery**.
-6. Click **Attached File** and upload attached files.
-7. **Enter the title and message content**.
-8. If you click on **Send** button, you can select 2 options **check and proceed and send immediately**
-    - check and proceed: Go to the **View Tagged Mail Delivery** tab to confirm mail receivers within 7 days before sending mail. (Not supported for scheduled
-      sending.)
-    - Send Immediately: Email is sent immediately without confirming the mail receiver. Delivery status can be checked on the **View Tagged Mail Delivery** tab.
-
 ## Template Management
 
 After creating categories, you can classify and manage templates that you use to send mail.
@@ -260,44 +237,6 @@ On **View by recipient**, you can select the corresponding recipient to see if t
 
 ![email_17_20231023_en](https://static.toastoven.net/prod_email/email_17_20231023_en.png)
 
-### View Tagged Mail Delivery
-
-On the **View Tagged Mail Delivery** tab, you can view, or deliver or cancel scheduled tagged mail delivery.
-
-![email_18_20231023_en](https://static.toastoven.net/prod_email/email_18_20231023_en.png)
-
-- Request ID or date and time of request is a required value.
-- Request date and time search can be done within a maximum of 1 month.
-- Cancel Sending: When sending tagged mail delivery, select **Review and proceed** and select 'Complete Ready to Send ' status item and then click on **Cancel
-  sending** button to send or cancel.
-- View: You can view tagged mail mass delivery items in View form at the top. By selecting column list of View item, you can check incoming mail and delivery
-  information (delivery content, delivery result) in View form at the bottom.
-- For scheduled sending, delivery cannot be canceled separately.
-- At progress status, you can check the status of your delivery request.
-- Data shown on full screen can be downloaded to Excel.
-
-#### Progress Status of Tagged Mail Delivery
-
-- Waiting: It is a status before reading recipient file data.
-- Ready to send: It is a status while loading recipient file data information.
-- Complete ready to send: It is a status that mail was complete ready to send. If selected scheduled items (column on the list), you can see mails sent by the
-  receiver in the list below.
-- Waiting to send It is a status waiting to send mails.
-- Sending:  It is a status that is in the middle of mail sending. If selected scheduled items (column on the list), you can see progress rate of sending status.
-- Complete delivery:  It is a status that delivery is normally completed.
-- Delivery failed It is a status that the error happened during delivery. You can check delivery status by mail in view mail delivery status list.
-- Delivery cancels: It is a status that the user cancelled the delivery.
-
-#### Mail Delivery Status by Recipient
-
-Select tagged mail delivery (column on the list) to check delivery information of each received mail and the results from the list at the bottom.
-
-![email_18-1_20231023_en](https://static.toastoven.net/prod_email/email_18-1_20231023_en.png)
-
-On **View by recipient**, you can select the corresponding recipient to verify that the delivery content has been sent successfully.
-
-![email_19_20231023_en](https://static.toastoven.net/prod_email/email_19_20231023_en.png)
-
 ## Manage Mail Domain
 
 On the **Manage Mail Domain** tab, you can manage delivery mail domain. If delivery domain is owned by an individual or a company, it is a feature complete the
@@ -384,37 +323,6 @@ refer to **Domain Management Guide**.
 - [Domain Management Guide > DKIM](./dkim-record/)
 - [Domain Management Guide > DMARC](./dmarc-record/)
 
-## Tag Management
-
-On **Tag Management** tab, you can create, modify or delete tags that you use to send mail.
-
-Click on specific tag to view the list of UIDs registered in the tag. Check [Note](./console-guide/#_37/) for the meaning of tag and UID terms.
-
-![email_20_20231023_en](https://static.toastoven.net/prod_email/email_20_20231023_en.png)
-
-1. If no registered tag exists, click on **Register Tag** button, type **tag name** on **Register/modify Tag** window, and click on **Register** button.
-    - You can generate up to 2,048 tags.
-2. To register UID with tag, select desired tag from the list of registered tags and click on **Register UID**.
-3. Enter the UID on **UID Registration** window and click on **Register**.
-    - You can register up to 1,000 UIDs in the tag at a time.
-
-## UID Management
-
-You can manage UIDs and mail addresses on **UID Management** tab.
-
-UIDs can easily send mail to a large number of subjects by registering with tags. Check [Note](./console-guide/#_37/) for the meaning of tag and UID terms.
-
-![email_21_20231023_en](https://static.toastoven.net/prod_email/email_21_20231023_en.png)
-
-![email_22_20231023_en](https://static.toastoven.net/prod_email/email_22_20231023_en.png)
-
-1. Click **Register UIDs**.
-2. Press **Download Template** button to enter multiple UIDs and mail addresses in CSV files.
-    - After downloading the template, enter UID in the first column and the email address in the second column.
-3. Save the file you entered and click on **UID File Upload** button to upload it.
-    - Find the number counts while uploading a template which is created.
-4. Click **Register** button.
-
 ## Webhook Management
 
 Webhook refers to a feature that informs you that a certain task has been done in the service. <br>
@@ -479,47 +387,6 @@ You can search for message received/viewed data collected in the last 30 days. I
 <span id='personal-information-assignor'></span>
 
 ## [Note]
-
-<span id='tags-and-uids'></span>
-
-### Tags and UID
-
-#### Service Terms
-
-|Terminology |Description |
-|--- |---|
-| tag |A system for classifying UIDs. <br>Multiple tags can be attached to UID to make it easier for the user to search and use UID information. | 
-|UID|ID(identifier) that distinguishes users. <br>Multiple contacts can be registered in one UID and used for delivery. | 
-|Contact | Where you set up to contact. <br>In Notification, you can register contact information from three services: Push, Email, and SMS. <br>Push is token, Email is email address and SMS is phone number. |
-
-#### Send Using Tags
-
-* It is a feature that allows you to send mail by selecting a tag instead of the mail address, which is the receiver information.
-
-1. Register UID.
-
-* On the **UID Management** tab, register UID and one or more mail addresses.
-* For more information, see [UID Management](./console-guide/#uid).
-
-2. Register a tag.
-
-* Register tags On **Tags Management** tab.
-* For more information, refer to [Tag Management](./console-guide/#_31).
-
-3. Register UID in tag.
-
-* Register the UID to the tag registered in the **Tag Management** tab.
-
-4. Select the tag and send mail.
-
-* In the **Deliver Mails** tab, select **Tag Delivery** instead of email address to register the tag.
-* Mail is sent to the mail address of UID registered in the tag.
-* For more information, please refer to [Tagged Mail Delivery](./console-guide/#_8).
-
-#### Relationship with the Tag Feature of Other Products
-
-* If you are using Push or SMS products in the same project, you can use the same tags and UID information in email together without re-registering them.
-* You can add different contacts to the same UID on the console of each product.
 
 ### Custom Header
 

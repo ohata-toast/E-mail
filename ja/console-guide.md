@@ -392,6 +392,8 @@ Webフック登録時に下記の設定値を入力します。
 * MIME-Version
 * Content-Transfer-Encoding
 * Content-Description
+* In-Reply-To
+* References
 
 #### 構成
 

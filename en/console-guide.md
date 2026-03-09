@@ -412,6 +412,8 @@ You can search for message received/viewed data collected in the last 30 days. I
 * MIME-Version
 * Content-Transfer-Encoding
 * Content-Description
+* In-Reply-To
+* References
 
 #### Configuration
 

@@ -7,8 +7,6 @@ It also provides RESTful APIs for easy integration with proprietary delivery pro
 
 - Mass Delivery Support
     - You can enter a list of recipients in Excel file and send mail in bulk.
-- Tag Delivery Support
-    - You can enter a list of recipients list by using tag and send mail in bulk.
 - Scheduled Delivery
     - You can send mails at any time you want.
 - Replacement Tag

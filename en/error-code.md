@@ -147,8 +147,3 @@
 | Opt-out  | false | -2308 | Invalid email address.                                                | Invalid email address.                                                                                          |
 | Opt-out  | false | -2309 | Failed to add the opt-out.                                                 | BlockReceiver add failed.                                                                                       |
 | Opt-out  | false | -2310 | Duplicated the opt-out.                                                     | Duplicate BlockReceiver.                                                                                        |
-| Tag    | false | -7000 | Failed to call Tag API.                                               | Fail to call Tag API.                                                                                            |
-| Tag    | false | -7003 | Uploaded file is empty.                                                 | Uploaded file is empty.                                                                                         |
-| Tag    | false | -7004 | The "uid" is required, and can not contain the comma character (,).                                    | The 'uid' is required, and can not contain the comma character (,).                                             |
-| Tag    | false | -7005 | Invalid email address.                                                | Invalid email address.                                                                                          |
-| Tag    | false | -7006 | The "uids" is required.                                                    | The 'uids' is required.                                                                                          |

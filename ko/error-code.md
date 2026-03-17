@@ -147,8 +147,3 @@
 | 수신거부  | false | -2308 | 유효하지 않은 이메일 주소입니다.                                                | Invalid email address.                                                                                          |
 | 수신거부  | false | -2309 | 수신 거부 추가에 실패했습니다.                                                 | BlockReceiver add failed.                                                                                       |
 | 수신거부  | false | -2310 | 중복된 수신 거부입니다.                                                     | Duplicate BlockReceiver.                                                                                        |
-| 태그    | false | -7000 | Tag API 호출에 실패했습니다.                                               | Fail to call Tag API.                                                                                            |
-| 태그    | false | -7003 | 업로드된 파일이 비어 있습니다.                                                 | Uploaded file is empty.                                                                                         |
-| 태그    | false | -7004 | 'uid'는 필수이며 쉼표(,)를 포함할 수 없습니다.                                    | The 'uid' is required, and can not contain the comma character (,).                                             |
-| 태그    | false | -7005 | 유효하지 않은 이메일 주소입니다.                                                | Invalid email address.                                                                                          |
-| 태그    | false | -7006 | 'uids'는 필수입니다.                                                    | The 'uids' is required.                                                                                          |

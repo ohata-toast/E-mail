@@ -147,8 +147,3 @@
 | 受信拒否 | false | -2308 | 無効なメールアドレスです。 | Invalid email address. |
 | 受信拒否 | false | -2309 | 受信拒否の追加に失敗しました。 | BlockReceiver add failed. |
 | 受信拒否 | false | -2310 | 重複した受信拒否です。 | Duplicate BlockReceiver. |
-| タグ | false | -7000 | Tag APIの呼び出しに失敗しました。 | Fail to call Tag API. |
-| タグ   | false | -7003 | アップロードされた ファイルが空です。                                                 | Uploaded file is empty.                                                                                         |
-| タグ | false | -7004 | 'uid' は必須であり、カンマ(,)を含めることはできません。 | The 'uid' is required, and can not contain the comma character (,). |
-| タグ | false | -7005 | 無効なメールアドレスです。 | Invalid email address. |
-| タグ | false | -7006 | 'uids' は必須です。 | The 'uids' is required. |

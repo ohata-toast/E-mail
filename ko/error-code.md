@@ -97,7 +97,6 @@
 | 발송/조회 | false | -2058 | 예약 취소 요청이 실패했습니다.                                                 | Reservation cancel request is failed.                                                                           |
 | 발송/조회 | false | -2059 | 'statsId'가 최대 길이를 초과했습니다. (8자)                                    | The 'statsId' exceeds maximum length. (8 chars)                                                                 |
 | 발송/조회 | false | -2060 | 이 요청은 상태를 업데이트할 수 없습니다. 대량 메일 요청 상태를 확인하세요.                       | This request can't update status. Check status of this mass mail request.                                       |
-| 발송/조회 | false | -2061 | 이 요청은 상태를 업데이트할 수 없습니다. 태그 메일 요청 상태를 확인하세요.                       | This request can't update status. Check status of this tag mail request.                                        |
 | 발송/조회 | false | -2062 | 'startMailStatusUpdateDate'와 'endMailStatusUpdateDate'는 필수입니다.    | 'startMailStatusUpdateDate' and 'endMailStatusUpdateDate' are required.                                         |
 | 발송/조회 | false | -2101 | 이미 존재하는 templateId입니다.                                            | Already existed templateId.                                                                                     |
 | 발송/조회 | false | -2107 | 템플릿을 찾을 수 없습니다.                                                   | Not found the template. templateId: {}                                                                          |

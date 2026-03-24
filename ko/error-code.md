@@ -97,7 +97,6 @@
 | 발송/조회 | false | -2058 | 예약 취소 요청이 실패했습니다.                                                 | Reservation cancel request is failed.                                                                           |
 | 발송/조회 | false | -2059 | 'statsId'가 최대 길이를 초과했습니다. (8자)                                    | The 'statsId' exceeds maximum length. (8 chars)                                                                 |
 | 발송/조회 | false | -2060 | 이 요청은 상태를 업데이트할 수 없습니다. 대량 메일 요청 상태를 확인하세요.                       | This request can't update status. Check status of this mass mail request.                                       |
-| 발송/조회 | false | -2061 | 이 요청은 상태를 업데이트할 수 없습니다. 태그 메일 요청 상태를 확인하세요.                       | This request can't update status. Check status of this tag mail request.                                        |
 | 발송/조회 | false | -2062 | 'startMailStatusUpdateDate'와 'endMailStatusUpdateDate'는 필수입니다.    | 'startMailStatusUpdateDate' and 'endMailStatusUpdateDate' are required.                                         |
 | 발송/조회 | false | -2101 | 이미 존재하는 templateId입니다.                                            | Already existed templateId.                                                                                     |
 | 발송/조회 | false | -2107 | 템플릿을 찾을 수 없습니다.                                                   | Not found the template. templateId: {}                                                                          |
@@ -147,8 +146,3 @@
 | 수신거부  | false | -2308 | 유효하지 않은 이메일 주소입니다.                                                | Invalid email address.                                                                                          |
 | 수신거부  | false | -2309 | 수신 거부 추가에 실패했습니다.                                                 | BlockReceiver add failed.                                                                                       |
 | 수신거부  | false | -2310 | 중복된 수신 거부입니다.                                                     | Duplicate BlockReceiver.                                                                                        |
-| 태그    | false | -7000 | Tag API 호출에 실패했습니다.                                               | Fail to call Tag API.                                                                                            |
-| 태그    | false | -7003 | 업로드된 파일이 비어 있습니다.                                                 | Uploaded file is empty.                                                                                         |
-| 태그    | false | -7004 | 'uid'는 필수이며 쉼표(,)를 포함할 수 없습니다.                                    | The 'uid' is required, and can not contain the comma character (,).                                             |
-| 태그    | false | -7005 | 유효하지 않은 이메일 주소입니다.                                                | Invalid email address.                                                                                          |
-| 태그    | false | -7006 | 'uids'는 필수입니다.                                                    | The 'uids' is required.                                                                                          |

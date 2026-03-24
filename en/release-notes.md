@@ -1,5 +1,12 @@
 ## Notification > Email > Release Notes
 
+### March 24, 2026
+#### Feature Updates
+* [Console, API] End of support for tag email sending
+    * Support for tag management, UID management, and tag email delivery features has ended.
+    * The **Query Tagged Email Delivery**, **Tag Management**, and **UID Management** menus have been removed from the console.
+    * Calls to APIs related to tag management, UID management, and tag email delivery now return an end-of-support response.
+
 ### September 23, 2025
 
 #### Feature Updates

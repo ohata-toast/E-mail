@@ -97,7 +97,6 @@
 | 送信/照会 | false | -2058 | 予約キャンセルリクエストに失敗しました。 | Reservation cancel request is failed. |
 | 送信/照会 | false | -2059 | 'statsId' が最大長を超えました。(8文字) | The 'statsId' exceeds maximum length. (8 chars) |
 | 送信/照会 | false | -2060 | このリクエストはステータスを更新できません。大量メールリクエストの状態を確認してください。 | This request can't update status. Check status of this mass mail request. |
-| 送信/照会 | false | -2061 | このリクエストはステータスを更新できません。タグメールリクエストの状態を確認してください。 | This request can't update status. Check status of this tag mail request. |
 | 送信/照会 | false | -2062 | 'startMailStatusUpdateDate' と 'endMailStatusUpdateDate' は必須です。 | 'startMailStatusUpdateDate' and 'endMailStatusUpdateDate' are required. |
 | 送信/照会 | false | -2101 | すでに存在するtemplateIdです。                                            | Already existed templateId.                                                                                     |
 | 送信/照会 | false | -2107 | テンプレートが見つかりません。                                                   | Not found the template. templateId: {}                                                                          |
@@ -147,8 +146,3 @@
 | 受信拒否 | false | -2308 | 無効なメールアドレスです。 | Invalid email address. |
 | 受信拒否 | false | -2309 | 受信拒否の追加に失敗しました。 | BlockReceiver add failed. |
 | 受信拒否 | false | -2310 | 重複した受信拒否です。 | Duplicate BlockReceiver. |
-| タグ | false | -7000 | Tag APIの呼び出しに失敗しました。 | Fail to call Tag API. |
-| タグ   | false | -7003 | アップロードされた ファイルが空です。                                                 | Uploaded file is empty.                                                                                         |
-| タグ | false | -7004 | 'uid' は必須であり、カンマ(,)を含めることはできません。 | The 'uid' is required, and can not contain the comma character (,). |
-| タグ | false | -7005 | 無効なメールアドレスです。 | Invalid email address. |
-| タグ | false | -7006 | 'uids' は必須です。 | The 'uids' is required. |
